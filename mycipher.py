@@ -1,5 +1,5 @@
-shift = int(input('What is your cipher number? '))
-text = input('What is your message? ')
+shift = int(input('cipher number: '))
+text = input('message: ')
 output = ''
 punctuation = ['!', '?', '.', ',', ';']
 for items in text:
